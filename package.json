@@ -3,9 +3,14 @@
   "displayName": "Suite Script Snippets and Language Support",
   "description": "Suite Script Snippets and Language Support for SuiteScript 2.x.",
   "version": "1.0.0",
+  "publisher": "RutujJeevanBokade",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.79.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rutuj2804/SuiteScript-Snippets-Extension.git"
   },
   "categories": [
     "Programming Languages"

@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "suite-script-language-support" extension will be documented in this file.
+### 1.0.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+Initial release of Suite Script Snippets.
+Contains snippets for:
+- Page templates for extensions and it's modules.
+- N/Search Module.
+- N/record Module.
+- N/query Module.
+- SuiteScript Scripts.
+- Try Catch block, For loop, Basic SuiteScript logs.
