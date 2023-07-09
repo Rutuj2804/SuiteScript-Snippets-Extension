@@ -1,0 +1,40 @@
+{
+  "name": "suite-script-language-support",
+  "displayName": "Suite Script Snippets and Language Support",
+  "description": "Suite Script Snippets and Language Support for SuiteScript 2.x.",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "suitescript",
+      "aliases": ["Suite Script", "suitescript"],
+      "extensions": [".ss"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "suitescript",
+      "scopeName": "source.ss",
+      "path": "./syntaxes/suitescript.tmLanguage.json"
+    }],
+    "snippets": [
+      {
+        "language": "suitescript",
+        "aliases": ["Suite Script", "suitescript"],
+        "extensions": [".ss"],
+        "path": "./snippets/suitescript.json"
+      },
+      {
+        "language": "javascript",
+        "aliases": ["JavaScript", "javascript"],
+        "extensions": [".js"],
+        "path": "./snippets/suitescript.json"
+      }
+    ]
+  }
+}

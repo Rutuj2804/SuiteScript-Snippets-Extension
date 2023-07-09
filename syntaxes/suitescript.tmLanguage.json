@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Suite Script",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.suitescript",
+				"match": "\\b(break|case|catch|class|const|continue|debugger|default|define|delete|do|else|export|extends|finally|for|function|if|import|in|let|return|super|switch|throw|try|var|void|while|with|yield)\\b"
+			},{
+				"name": "keyword.operator.suitescript",
+				"match": "\\b(typeof|instanceof|new|this)\\b"
+			  }]
+		},
+		"strings": {
+			"name": "string.quoted.double.suitescript",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.suitescript",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.ss"
+}
